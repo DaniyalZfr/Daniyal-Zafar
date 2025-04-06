@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     <style>
-        /* Enhanced button animations */
+       
 .btn-primary, .book-btn, .destination-btn, .search-btn {
   position: relative;
   overflow: hidden;
@@ -37,7 +37,7 @@
   left: 100%;
 }
 
-/* Ripple effect */
+
 .btn-ripple {
   position: relative;
   overflow: hidden;
@@ -65,7 +65,7 @@
   opacity: .3;
   transition: 0s;
 }
-        /* Add to your existing CSS */
+     
         .animate-on-scroll {
           opacity: 0;
           transform: translateY(30px);
@@ -77,13 +77,13 @@
           transform: translateY(0);
         }
         
-        /* Delay animations for staggered effect */
+     
         .animate-on-scroll.delay-1 { transition-delay: 0.1s; }
         .animate-on-scroll.delay-2 { transition-delay: 0.2s; }
         .animate-on-scroll.delay-3 { transition-delay: 0.3s; }
         .animate-on-scroll.delay-4 { transition-delay: 0.4s; }
         
-        /* Special animations */
+      
         .fade-in-left {
           transform: translateX(-50px);
         }
@@ -100,7 +100,7 @@
           transform: rotate(5deg) scale(0.9);
         }
 
-        /* Enhanced hover effects */
+    
 .feature:hover {
   transform: translateY(-10px) scale(1.03);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
@@ -115,7 +115,7 @@
   transform: scale(1.15);
 }
 
-/* Button pulse effect */
+
 @keyframes pulse {
   0% { transform: scale(1); }
   50% { transform: scale(1.05); }
@@ -129,7 +129,7 @@
 }
       </style>
 
-      <!-- Add before closing body tag -->
+
 <div class="preloader">
     <div class="loader">
       <div class="wheel"></div>
@@ -138,7 +138,7 @@
   </div>
   
   <style>
-    /* Preloader styles */
+  
     .preloader {
       position: fixed;
       top: 0;
@@ -222,7 +222,7 @@
             padding: 0 2rem;
         }
 
-        /* Header Styles */
+       
         .top-bar {
             background-color: var(--dark-color);
             color: var(--light-color);
@@ -349,7 +349,7 @@
             cursor: pointer;
         }
 
-        /* Hero Section */
+     
         .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
                 url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80') 
@@ -363,17 +363,17 @@
   
 }
 
-/* Add to hero section styles */
+
 .hero {
   position: relative;
   overflow: hidden;
   display: flex;
     align-items: center;
-    justify-content: center; /* This centers the form horizontally */
+    justify-content: center; 
     height: 90vh;
     position: relative;
     padding: 0 2rem;
-    text-align: center; /* Center the text content as well */
+    text-align: center; 
 }
 
 .hero::before {
@@ -404,15 +404,15 @@
 }
 
 .search-form-container {
-    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
-    backdrop-filter: blur(10px); /* Blur effect */
-    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
     border-radius: 9px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     padding: 4rem;
     width: 100%;
     max-width: 1200px;
-    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: subtle border */
+    border: 1px solid rgba(255, 255, 255, 0.3); 
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -422,7 +422,7 @@
     width: 100%;
     max-width: 1200px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    margin: 0 auto; /* This helps with centering */
+    margin: 0 auto; 
    
    
 }
@@ -430,20 +430,20 @@
 .search-form {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px; /* Consistent spacing */
-    align-items: end; /* Aligns bottom of elements */
+    gap: 15px; 
+    align-items: end; 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
-    margin: 0 auto; /* Center the form grid */
-    max-width: 1000px; /* Adjust this as needed */
+    margin: 0 auto; 
+    max-width: 1000px; 
   
 }
 
 .form-group {
     flex: 1;
     min-width: 150px;
-    margin-bottom: 0; /* Remove default margins */
+    margin-bottom: 0; 
 }
 
 .form-group label {
@@ -452,8 +452,8 @@
     font-weight: 600;
     color: var(--dark-color);
     margin-bottom: 0.8rem;
-    color: #e4dbd7; /* White text for better visibility */
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); /* Optional: subtle shadow */
+    color: #e4dbd7; 
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); 
     
 }
 
@@ -465,15 +465,15 @@
     border-radius: 4px;
     font-size: 1.4rem;
     background-color: white;
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white */
+    background-color: rgba(255, 255, 255, 0.9); 
     border: 1px solid rgba(255, 255, 255, 0.5);
-    width: 100%; /* Full width of parent */
-    height: 45px; /* Fixed height */
-    padding: 10px 15px; /* Uniform padding */
-    font-size: 1.5rem; /* Same font size */
+    width: 100%; 
+    height: 45px; 
+    padding: 10px 15px; 
+    font-size: 1.5rem; 
     border: 1px solid #ddd;
     border-radius: 4px;
-    box-sizing: border-box; /* Prevents overflow */
+    box-sizing: border-box;
   
    
 }
@@ -481,7 +481,7 @@
 .search-btn-container {
     flex: 0 0 auto;
     align-self: flex-end;
-    grid-column: 1 / -1; /* Makes button span full width */
+    grid-column: 1 / -1; 
   text-align: center;
   margin-top: 20px;
 
@@ -498,7 +498,7 @@
     cursor: pointer;
     transition: all 0.3s;
     height: 42px;
-    background-color: rgba(255, 77, 48, 0.9); /* Slightly transparent orange */
+    background-color: rgba(255, 77, 48, 0.9); 
     background-color: var(--primary-color);
     color: white;
     border: none;
@@ -555,7 +555,7 @@
   transform: scale(1.2);
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 1200px) {
     .search-form {
         gap: 1rem;
@@ -590,7 +590,7 @@
     }
 }
 
-        /* Why Choose Us Section */
+        
         .section {
             padding: 8rem 0;
         }
@@ -646,9 +646,7 @@
             font-size: 1.6rem;
         }
 
-        /* Cars Section */
-
-        /* Car Carousel Styles */
+        
 .car-carousel {
     position: relative;
     padding: 20px 0 50px;
@@ -692,7 +690,7 @@
     padding: 2rem;
 }
 
-/* Carousel Navigation */
+
 .carousel-nav {
     display: flex;
     justify-content: center;
@@ -723,7 +721,7 @@
     color: white;
 }
 
-/* Pagination Dots */
+
 .swiper-pagination {
     position: relative;
     display: flex;
@@ -745,7 +743,7 @@
     transform: scale(1.2);
 }
 
-/* Responsive Adjustments */
+
 @media (max-width: 768px) {
     .car-carousel {
         padding: 10px 0 40px;
@@ -848,7 +846,7 @@
             background-color: #e63c1e;
         }
 
-        /* Testimonials Section */
+        
         .testimonials {
             position: relative;
         }
@@ -902,7 +900,7 @@
             margin-top: 0.5rem;
         }
 
-        /* Destinations Section */
+      
         .destinations {
             background-color: var(--secondary-color);
         }
@@ -967,7 +965,7 @@
             background-color: #e63c1e;
         }
 
-        /* Contact Section */
+       
         .contact {
             display: flex;
             align-items: center;
@@ -1017,7 +1015,7 @@
             font-size: 1.6rem;
         }
 
-        /* Footer */
+     
         .footer {
             background-color: var(--dark-color);
             color: var(--light-color);
@@ -1236,7 +1234,7 @@
     </style>
 </head>
 <body>
-    <!-- Top Bar -->
+    
     <div class="top-bar">
         <div class="container top-bar-content">
             <div class="top-bar-links">
@@ -1255,7 +1253,7 @@
         </div>
     </div>
 
-    <!-- Header -->
+    
     <header class="header">
         <div class="container header-content">
             <a href="#" class="logo">Drive with<span> Daniyal</span></a>
@@ -1284,7 +1282,7 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
+   
     <section class="hero">
         <div class="hero-container">
             <div class="search-form-container">
@@ -1326,7 +1324,7 @@
 
 
 
-<!-- row -->
+
 
 <div class="form-group">
     <label for="location"><i class="fas fa-map-marker-alt"></i> Return time</label>
@@ -1378,7 +1376,7 @@
     
 
     
-    <!-- Why Choose Us Section -->
+  
     <section class="section">
         <div class="container">
             <div class="section-title">
@@ -1422,8 +1420,7 @@
         </div>
     </section>
 
-    <!-- Cars Section -->
-    <!-- Cars Section -->
+   
 <section class="section cars">
     <div class="container">
         <div class="section-title">
@@ -1431,10 +1428,10 @@
             <p>Select from our diverse fleet of vehicles to match your travel requirements and style.</p>
         </div>
         
-        <!-- Car Carousel Container -->
+       
         <div class="car-carousel">
             <div class="swiper-wrapper">
-                <!-- Car Slide 1 -->
+               
                 <div class="swiper-slide">
                     <div class="car-card">
                         <div class="car-badge">Popular</div>
@@ -1454,7 +1451,7 @@
                     </div>
                 </div>
                 
-                <!-- Car Slide 2 -->
+               
                 <div class="swiper-slide">
                     <div class="car-card">
                         <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
@@ -1473,7 +1470,7 @@
                     </div>
                 </div>
                 
-                <!-- Car Slide 3 -->
+               
                 <div class="swiper-slide">
                     <div class="car-card">
                         <div class="car-badge">Luxury</div>
@@ -1493,7 +1490,7 @@
                     </div>
                 </div>
                 
-                <!-- Car Slide 4 -->
+              
                 <div class="swiper-slide">
                     <div class="car-card">
                         <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
@@ -1512,7 +1509,7 @@
                     </div>
                 </div>
                 
-                <!-- Car Slide 5 (Extra Car) -->
+               
                 <div class="swiper-slide">
                     <div class="car-card">
                         <img src="https://th.bing.com/th/id/OIF.H3Yeczet1i1cwdICX5VciA?rs=1&pid=ImgDetMain" 
@@ -1531,7 +1528,7 @@
                     </div>
                 </div>
                 
-                <!-- Car Slide 6 (Extra Car) -->
+              
                 <div class="swiper-slide">
                     <div class="car-card">
                         <div class="car-badge">New</div>
@@ -1552,7 +1549,7 @@
                 </div>
             </div>
             
-            <!-- Navigation Arrows -->
+           
             <div class="carousel-nav">
                 <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
                 <div class="swiper-pagination"></div>
@@ -1561,7 +1558,7 @@
         </div>
     </div>
 </section>
-    <!-- Testimonials Section -->
+    
     <section class="section testimonials">
         <div class="container">
             <div class="section-title">
@@ -1642,7 +1639,7 @@
         </div>
     </section>
 
-    <!-- Destinations Section -->
+   
     <section class="section destinations">
         <div class="container">
             <div class="section-title">
@@ -1686,7 +1683,7 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
+ 
     <section class="contact">
         <div class="container contact-content">
             <div class="contact-text">
@@ -1709,7 +1706,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
@@ -1780,10 +1777,10 @@
         </div>
     </footer>
 
-    <!-- JavaScript -->
+  
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
-        // Mobile Menu Toggle
+       
         const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
         const navLinks = document.querySelector('.nav-links');
         
@@ -1801,7 +1798,7 @@
             });
         });
         
-        // Testimonial Slider
+   
         const swiper = new Swiper('.swiper', {
             loop: true,
             pagination: {
@@ -1828,7 +1825,7 @@
             }
         });
         
-        // Form Validation
+    
         const searchForm = document.querySelector('.search-form');
         searchForm.addEventListener('submit', (e) => {
             e.preventDefault();
@@ -1842,12 +1839,12 @@
                 return;
             }
             
-            // Form is valid, proceed with submission
+           
             alert('Searching for available cars...');
-            // In a real application, you would submit the form data to the server here
+            
         });
         
-        // Smooth scrolling for navigation links
+       
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -1867,7 +1864,7 @@
     </script>
 
 
-<script>// Initialize Car Carousel
+<script>
     const carCarousel = new Swiper('.car-carousel', {
         slidesPerView: 3,
         spaceBetween: 30,
@@ -1899,7 +1896,7 @@
         }
     });
     
-    // Add 3D tilt effect on hover
+  
     document.querySelectorAll('.car-card').forEach(card => {
         card.addEventListener('mousemove', (e) => {
             const rect = card.getBoundingClientRect();
@@ -1913,9 +1910,9 @@
         });
     });</script>
 
-    <script>// Add this to your existing script section
+    <script>
 
-        // Preloader
+     
         window.addEventListener('load', function() {
           const preloader = document.querySelector('.preloader');
           setTimeout(() => {
@@ -1926,7 +1923,7 @@
           }, 1500);
         });
         
-        // Scroll animations
+        
         function animateOnScroll() {
           const elements = document.querySelectorAll('.animate-on-scroll');
           
@@ -1940,19 +1937,19 @@
           });
         }
         
-        // Initialize on load and scroll
+     
         window.addEventListener('load', animateOnScroll);
         window.addEventListener('scroll', animateOnScroll);
         
-        // Add animation classes to elements
+        
         document.addEventListener('DOMContentLoaded', function() {
-          // Features section
+        
           const features = document.querySelectorAll('.feature');
           features.forEach((feature, index) => {
             feature.classList.add('animate-on-scroll', `delay-${index % 4}`);
           });
           
-          // Cars section
+        
           const carCards = document.querySelectorAll('.car-card');
           carCards.forEach((card, index) => {
             card.classList.add('animate-on-scroll', `delay-${index % 3}`);
@@ -1963,21 +1960,21 @@
             }
           });
           
-          // Testimonials
+    
           const testimonials = document.querySelectorAll('.testimonial-card');
           testimonials.forEach((testimonial, index) => {
             testimonial.classList.add('animate-on-scroll', `delay-${index % 2}`);
             testimonial.classList.add('scale-in');
           });
           
-          // Destinations
+         
           const destinations = document.querySelectorAll('.destination-card');
           destinations.forEach((destination, index) => {
             destination.classList.add('animate-on-scroll', `delay-${index % 4}`);
             destination.classList.add('rotate-in');
           });
           
-          // Contact section
+         
           const contactText = document.querySelector('.contact-text');
           if (contactText) {
             contactText.classList.add('animate-on-scroll', 'fade-in-left');
